@@ -4,6 +4,10 @@ body {
 
 }
 
+html, body {
+  height: 100%;
+}
+
 h1 {
 	font-size: 1.5em;
 }
@@ -55,10 +59,10 @@ a {
 }
 
 section#bigBear {
-	padding-top:500px;
-	padding-bottom: 200px;
-	height: 500px;
-	background: url("../images/bigbear.jpg") no-repeat center center;
+	padding-top: 30%;
+	padding-bottom: 25%;
+/*	height: 100%;
+*/	background: url("../images/bigbear.jpg") no-repeat center center;
   -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,9 +72,9 @@ section#bigBear {
 }
 
 section#dudsClothing {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	height: 300px;
+	padding-top: 30%;
+	padding-bottom: 25%;
+	height: 100%;
 	background: url("../images/dudsclothing") no-repeat center center fixed;
   -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
   -moz-background-size: cover;
@@ -81,9 +85,9 @@ section#dudsClothing {
 }
 
 section#davidsCar {
-	padding-top:200px;
-	padding-bottom: 200px;
-	height: 300px;
+	padding-top:25%;
+	padding-bottom: 25%;
+	height: 100%;
 	background: url("../images/s2000.JPG") no-repeat center center;
   -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
   -moz-background-size: cover;
@@ -93,9 +97,9 @@ section#davidsCar {
 }
 
 section#dayOfTheDead {
-	padding-top:200px;
-	padding-bottom: 200px;
-	height: 300px;
+	padding-top:25%;
+	padding-bottom: 25%;
+	height: 100%;
 	background: url("../images/carnivalride.JPG") no-repeat center center fixed;
   -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
   -moz-background-size: cover;
